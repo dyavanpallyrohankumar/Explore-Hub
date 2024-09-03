@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore-Hub</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        .contact-us form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-us label {
+    font-weight: bold;
+}
+
+.contact-us input, .contact-us textarea {
+    /* width: 100px; */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-us button {
+    background: #61dafb;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-us button:hover {
+    background: #21a1f1;
+}
+
+.contact-details {
+    margin-top: 1rem;
+}
+fieldset{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+.form{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Explore-Hub </h1>
+        </div>
+        <nav>
+            <div class="navbar">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="recommendation.html">Recommendations</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        
+         <div class="auth">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+         </div>
+      </nav>
+</header>
+
+
+<div class="form">
+    <fieldset>
+    <section class="contact-us">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-details">
+            <p>Address: Hyderabad</p>
+            <p>Phone: 89199999999</p>
+            <p>Email: Explore-Hub@gmail.com</p>
+        </div>
+    </section>
+</fieldset>
+</div>
+<footer>
+    <p>&copy; 2024 Explore-Hub</p>
+</footer>
+</body>
+</html>

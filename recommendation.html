@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore-Hub</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        .main {
+    padding: 2rem;
+}
+
+.recommendations h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #61dafb;
+}
+
+.recommendation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.recommendation {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recommendation h2 {
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.recommendation p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.recommendation a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.recommendation a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    /* background: #282c34; */
+    color: #61dafb;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Explore-Hub </h1>
+        </div>
+        <nav>
+            <div class="navbar">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="recommendation.html">Recommendations</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        
+         <div class="auth">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+         </div>
+      </nav>
+</header>
+
+
+<main>
+    <section class="recommendations">
+        <h1>Our Top Recommendations</h1>
+        <div class="recommendation-list">
+            <div class="recommendation">
+                <img src="https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6795.jpg?t=st=1725397524~exp=1725401124~hmac=1b14e6772d57898ac46eee629b2012e17c8f884c213991d8b03dc8a907b2ce1d&w=826" alt="Beach Paradise">
+                <h2>Beach Paradise</h2>
+                <p>Escape to a stunning tropical beach where turquoise waters meet white sandy shores. Perfect for relaxation and sunbathing.</p>
+                <a href="#">More Details</a>
+            </div>
+            <div class="recommendation">
+                <img src="https://img.freepik.com/free-photo/hiker-sitting-rock_23-2148106675.jpg?t=st=1725397646~exp=1725401246~hmac=81a6d61529483f1af581488e2fffa7a122e57f998fe8cdd491028fc91f1d4bbe&w=826" alt="Mountain Retreat">
+                <h2>Mountain Retreat</h2>
+                <p>Experience the tranquility of the mountains with breathtaking views and peaceful surroundings. Ideal for hiking and nature lovers.</p>
+                <a href="#">More Details</a>
+            </div>
+            <div class="recommendation">
+                <img src="https://img.freepik.com/premium-photo/person-yellow-jacket-gazes-city-skyline-vibrant-sunset_93675-231740.jpg?w=826" alt="City Adventure">
+                <h2>City Adventure</h2>
+                <p>Dive into the vibrant city life with rich culture, exciting nightlife, and iconic landmarks. Great for urban explorers and foodies.</p>
+                <a href="#">More Details</a>
+            </div>
+            <div class="recommendation">
+                <img src="https://img.freepik.com/free-photo/tourist-carrying-luggage_23-2151747354.jpg?t=st=1725397746~exp=1725401346~hmac=49a87ef02c4a0233a7f095f1f520fb59a2f42883a2b149e284cb3ce6e45f1b5b&w=740" alt="Cultural Expedition">
+                <h2>Cultural Expedition</h2>
+                <p>Discover historical sites and immerse yourself in local traditions. Perfect for those who love learning about different cultures.</p>
+                <a href="#">More Details</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Explore-Hub</p>
+</footer>
+</body>
+</html>

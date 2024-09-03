@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore-Hub</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+   main {
+    padding: 2rem;
+}
+
+.destinations h1 {
+    color: #61dafb;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.destinations input[type="search"] {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.categories {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.category-btn {
+    background: #61dafb;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.category-btn:hover {
+    background: #21a1f1;
+}
+
+.destination-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.destination {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.destination h2 {
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.destination p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.destination a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.destination a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    /* background: #282c34; */
+    color: #61dafb;
+    text-align: center;
+    padding: 1rem;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+}</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Explore-Hub </h1>
+        </div>
+        <nav>
+            <div class="navbar">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="recommendation.html">Recommendations</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        
+         <div class="auth">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+         </div>
+      </nav>
+</header>
+
+<main>
+    <section class="destinations">
+        <h1>Travel Destinations</h1>
+        <input type="search" placeholder="Search destinations...">
+        <div class="categories">
+            <button class="category-btn">Beach</button>
+            <button class="category-btn">Mountain</button>
+            <button class="category-btn">City</button>
+            <button class="category-btn">Cultural</button>
+        </div>
+        <div class="destination-list">
+            <div class="destination">
+                <img src="https://img.freepik.com/free-photo/beautiful-tropical-beach-sea-sand-with-coconut-palm-tree-blue-sky-white-cloud_74190-7443.jpg?t=st=1725398299~exp=1725401899~hmac=4c02106250be0674804c847d3feef29f20125d5c1e87c46524e64b11c283a65d&w=826" alt="Tropical Beach">
+                <h2>Tropical Beach</h2>
+                <p>Relax on pristine sandy shores and swim in crystal-clear waters. Perfect for a serene getaway.</p>
+                <a href="#">Explore More</a>
+            </div>
+            <div class="destination">
+                <img src="https://img.freepik.com/free-photo/breathtaking-shot-mountain-cadini-di-misurina-italian-alps_181624-8456.jpg?t=st=1725398265~exp=1725401865~hmac=cf370db362d5dd7d0281c1d20f826ad594c9117523d7854471d4cb496376c453&w=996" alt="Alpine Mountain">
+                <h2>Alpine Mountain</h2>
+                <p>Enjoy breathtaking mountain views and explore picturesque trails. Ideal for outdoor enthusiasts.</p>
+                <a href="#">Explore More</a>
+            </div>
+            <div class="destination">
+                <img src="https://img.freepik.com/free-photo/beautiful-tall-buildings-red-sky_23-2149444949.jpg?t=st=1725398456~exp=1725402056~hmac=e9759412bcb18294ffb06311e67d29040fb405c85fcf11b7964c89676390e71c&w=826" alt="Bustling City">
+                <h2>Bustling City</h2>
+                <p>Experience vibrant city life with iconic landmarks, shopping, and nightlife. Great for urban explorers.</p>
+                <a href="#">Explore More</a>
+            </div>
+            <div class="destination">
+                <img src="https://img.freepik.com/free-photo/architecture-ancient-monument-world-heritage-day-celebration_23-2151297197.jpg?t=st=1725398360~exp=1725401960~hmac=7dbe3b076102f720b82208314ebc4058c1f474bec4a5d34d9b3ab18754796e71&w=826" alt="Historic Landmark">
+                <h2>Historic Landmark</h2>
+                <p>Discover rich history and cultural heritage at renowned historical sites. Perfect for history buffs.</p>
+                <a href="#">Explore More</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Explore-Hub</p>
+</footer>
+</body>
+</html>
