@@ -15,7 +15,7 @@ Welcome to the Explore-Hub project! This repository contains the source code for
 
 ## Live Demo
 
-Check out the live version of the website here: [Explore-Hub Live](https://your-hosting-url.com)
+Check out the live version of the website here: [Explore-Hub Live](https://explore-hubtravel.netlify.app/)
 
 ## Installation
 
